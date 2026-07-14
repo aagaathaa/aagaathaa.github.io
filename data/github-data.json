@@ -1,0 +1,27 @@
+{
+  "profile": {
+    "public_repos": 1,
+    "followers": 0,
+    "following": 2,
+    "avatar": "https://avatars.githubusercontent.com/u/134364675?s=400&u=c3564b2e83d9af586b53ab3f984a94e083f8e8f7&v=4"
+  },
+  "repos": [
+    {
+      "name": "saucedemo-playwright-tests",
+      "display_name": "SauceDemo Playwright Automation Framework",
+      "description": "Professional UI automation framework built with Python, Playwright and Pytest.",
+      "url": "https://github.com/aagaathaa/saucedemo-playwright-tests",
+      "featured": true
+    }
+  ],
+  "events": [
+    {
+      "type": "Push",
+      "repo": "aagaathaa/saucedemo-playwright-tests"
+    },
+    {
+      "type": "Issues",
+      "repo": "aagaathaa/saucedemo-playwright-tests"
+    }
+  ]
+}

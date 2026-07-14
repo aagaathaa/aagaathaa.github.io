@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Apple metadata
+__MACOSX/
+._*
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
