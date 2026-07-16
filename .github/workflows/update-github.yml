@@ -21,7 +21,7 @@ jobs:
 
       - run: npm install axios
 
-      - run: node .github/update-github.js
+      - run: node data/update-github.js
 
       - name: Commit changes
         run: |
