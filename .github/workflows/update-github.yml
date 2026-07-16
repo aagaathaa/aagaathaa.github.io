@@ -2,7 +2,7 @@ name: Update GitHub Data
 
 on:
   schedule:
-    - cron: "0 */6 * * *" # каждые 6 часов
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -19,9 +19,10 @@ jobs:
         with:
           node-version: 20
 
-      - run: npm install axios
+      - name: Install dependencies
+        run: npm install axios
 
-      - run: node data/update-github.js
+      - run: node .github/update-github.js
 
       - name: Commit changes
         run: |
