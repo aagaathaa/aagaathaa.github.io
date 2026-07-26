@@ -1,6 +1,6 @@
 # Agatha Abakumova — QA Engineer Portfolio
 
-A modern personal portfolio showcasing my experience in Manual QA and QA Automation.
+A modern portfolio showcasing my experience in Manual QA, Automation QA, and software testing projects.
 
 🌐 Live Website:
 https://aagaathaa.github.io
@@ -13,7 +13,7 @@ Built with:
 
 - HTML5
 - CSS3
-- Vanilla JavaScript
+- JavaScript (ES6+)
 - Python
 - Playwright
 - GitHub Pages
@@ -26,35 +26,20 @@ Built with:
 
 - Responsive design
 - Dark / Light theme
-- Live GitHub statistics
+- Live GitHub profile and repository data
+- Automated GitHub updates via GitHub Actions
+- Featured project section
 - Interactive project showcase
 - Clickable certificates
-- Animated UI
-- SEO optimized
-- Open Graph support
-
-## Featured Project
-
-### SauceDemo Playwright Automation Framework
-
-Python + Playwright + Pytest automation framework featuring:
-
-- Page Object Model
-- Allure Reports
-- GitHub Actions CI
-- Docker support
-- Cross-browser testing
-
-Repository:
-https://github.com/aagaathaa/saucedemo-playwright-tests
+- Smooth animations
+- SEO optimization
+- Open Graph metadata
 
 ## Contact
 
-LinkedIn
-
-GitHub
-
-Email
+- LinkedIn
+- GitHub
+- Email
 
 ---
 
