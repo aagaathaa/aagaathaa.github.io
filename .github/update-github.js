@@ -4,6 +4,17 @@ const axios = require("axios");
 
 const USERNAME = "aagaathaa";
 
+const REPO_CONFIG = {
+  "orangehrm-automation-framework": {
+    displayName: "OrangeHRM Automation Framework",
+    featured: true,
+  },
+  "saucedemo-playwright-tests": {
+    displayName: "SauceDemo Playwright Automation Framework",
+    featured: false,
+  },
+};
+
 const headers = {
   Accept: "application/vnd.github+json",
   "User-Agent": "github-portfolio-updater",
@@ -32,21 +43,22 @@ async function getRepositories() {
     { headers },
   );
 
-  return data
-    .filter((repo) => !repo.fork)
+  const repos = data
+    .filter((repo) => !repo.fork && repo.name !== "aagaathaa.github.io")
     .sort(
       (a, b) =>
         new Date(b.pushed_at).getTime() - new Date(a.pushed_at).getTime(),
-    )
-    .slice(0, 6)
-    .map((repo, index) => ({
-      name: repo.name,
-      display_name: repo.name,
-      url: repo.html_url,
-      featured: index === 0,
-      language: repo.language || "Unknown",
-      updated_at: repo.updated_at,
-    }));
+    );
+
+  return repos.slice(0, 6).map((repo) => ({
+    name: repo.name,
+    display_name: REPO_CONFIG[repo.name]?.displayName || repo.name,
+    description: repo.description,
+    url: repo.html_url,
+    featured: REPO_CONFIG[repo.name]?.featured || false,
+    language: repo.language || "Unknown",
+    updated_at: repo.updated_at,
+  }));
 }
 
 function mapEvent(event) {
