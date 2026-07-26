@@ -1,61 +1,64 @@
 {
-  "generated_at": "2026-07-26T12:36:40.802Z",
+  "generated_at": "2026-07-26T18:55:17.636Z",
   "profile": {
     "avatar": "https://avatars.githubusercontent.com/u/134364675?v=4",
-    "public_repos": 3,
+    "public_repos": 4,
     "followers": 0,
     "following": 2
   },
   "repos": [
     {
-      "name": "aagaathaa.github.io",
-      "display_name": "aagaathaa.github.io",
-      "url": "https://github.com/aagaathaa/aagaathaa.github.io",
+      "name": "orangehrm-automation-framework",
+      "display_name": "OrangeHRM Automation Framework",
+      "description": "End-to-End UI Test Automation Framework for OrangeHRM using Playwright, Python, Pytest, Allure and Docker.",
+      "url": "https://github.com/aagaathaa/orangehrm-automation-framework",
       "featured": true,
-      "language": "HTML",
-      "updated_at": "2026-07-26T12:33:25Z"
+      "language": "Python",
+      "updated_at": "2026-07-26T15:09:20Z"
     },
     {
-      "name": "orangehrm-automation-framework",
-      "display_name": "orangehrm-automation-framework",
-      "url": "https://github.com/aagaathaa/orangehrm-automation-framework",
+      "name": "qa-automation-template",
+      "display_name": "qa-automation-template",
+      "description": "Reusable Playwright & Pytest automation framework template with POM, Allure, Docker and GitHub Actions.",
+      "url": "https://github.com/aagaathaa/qa-automation-template",
       "featured": false,
       "language": "Python",
-      "updated_at": "2026-07-16T21:07:59Z"
+      "updated_at": "2026-07-26T15:02:07Z"
     },
     {
       "name": "saucedemo-playwright-tests",
-      "display_name": "saucedemo-playwright-tests",
+      "display_name": "SauceDemo Playwright Automation Framework",
+      "description": "UI test automation framework using Python, Playwright, Pytest, and Page Object Model (POM).",
       "url": "https://github.com/aagaathaa/saucedemo-playwright-tests",
       "featured": false,
       "language": "Python",
-      "updated_at": "2026-07-13T14:28:22Z"
+      "updated_at": "2026-07-26T15:02:37Z"
     }
   ],
   "events": [
     {
       "type": "Push",
-      "repo": "aagaathaa/aagaathaa.github.io"
-    },
-    {
-      "type": "Activity",
       "repo": "aagaathaa/orangehrm-automation-framework"
     },
     {
       "type": "Push",
-      "repo": "aagaathaa/aagaathaa.github.io"
+      "repo": "aagaathaa/orangehrm-automation-framework"
     },
     {
       "type": "Push",
-      "repo": "aagaathaa/aagaathaa.github.io"
+      "repo": "aagaathaa/qa-automation-template"
     },
     {
       "type": "Activity",
-      "repo": "aagaathaa/aagaathaa.github.io"
+      "repo": "aagaathaa/qa-automation-template"
     },
     {
-      "type": "Push",
+      "type": "Activity",
       "repo": "aagaathaa/saucedemo-playwright-tests"
+    },
+    {
+      "type": "Activity",
+      "repo": "aagaathaa/orangehrm-automation-framework"
     }
   ]
 }
