@@ -1,26 +1,60 @@
 {
+  "generated_at": "2026-07-26T12:36:40.802Z",
   "profile": {
-    "public_repos": 1,
+    "avatar": "https://avatars.githubusercontent.com/u/134364675?v=4",
+    "public_repos": 3,
     "followers": 0,
-    "following": 2,
-    "avatar": "https://avatars.githubusercontent.com/u/134364675?s=400&u=c3564b2e83d9af586b53ab3f984a94e083f8e8f7&v=4"
+    "following": 2
   },
   "repos": [
     {
+      "name": "aagaathaa.github.io",
+      "display_name": "aagaathaa.github.io",
+      "url": "https://github.com/aagaathaa/aagaathaa.github.io",
+      "featured": true,
+      "language": "HTML",
+      "updated_at": "2026-07-26T12:33:25Z"
+    },
+    {
+      "name": "orangehrm-automation-framework",
+      "display_name": "orangehrm-automation-framework",
+      "url": "https://github.com/aagaathaa/orangehrm-automation-framework",
+      "featured": false,
+      "language": "Python",
+      "updated_at": "2026-07-16T21:07:59Z"
+    },
+    {
       "name": "saucedemo-playwright-tests",
-      "display_name": "SauceDemo Playwright Automation Framework",
-      "description": "Professional UI automation framework built with Python, Playwright and Pytest.",
+      "display_name": "saucedemo-playwright-tests",
       "url": "https://github.com/aagaathaa/saucedemo-playwright-tests",
-      "featured": true
+      "featured": false,
+      "language": "Python",
+      "updated_at": "2026-07-13T14:28:22Z"
     }
   ],
   "events": [
     {
       "type": "Push",
-      "repo": "aagaathaa/saucedemo-playwright-tests"
+      "repo": "aagaathaa/aagaathaa.github.io"
     },
     {
-      "type": "Issues",
+      "type": "Activity",
+      "repo": "aagaathaa/orangehrm-automation-framework"
+    },
+    {
+      "type": "Push",
+      "repo": "aagaathaa/aagaathaa.github.io"
+    },
+    {
+      "type": "Push",
+      "repo": "aagaathaa/aagaathaa.github.io"
+    },
+    {
+      "type": "Activity",
+      "repo": "aagaathaa/aagaathaa.github.io"
+    },
+    {
+      "type": "Push",
       "repo": "aagaathaa/saucedemo-playwright-tests"
     }
   ]
