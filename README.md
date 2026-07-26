@@ -9,16 +9,14 @@ https://aagaathaa.github.io
 
 This portfolio highlights my professional experience, technical skills, automation projects, certifications and live GitHub activity.
 
-Built with:
+## Tech Stack
 
 - HTML5
 - CSS3
 - JavaScript (ES6+)
-- Python
-- Playwright
 - GitHub Pages
 - GitHub Actions
-- AOS
+- AOS (Animate On Scroll)
 - Typed.js
 - tsParticles
 
