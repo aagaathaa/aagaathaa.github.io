@@ -31,5 +31,8 @@ jobs:
 
           git add data/github-data.json
 
-          git diff --cached --quiet || \
-          (git commit -m "Update GitHub data" && git push)
+          git diff --cached --quiet || (
+            git commit -m "Update GitHub data"
+            git pull --rebase origin main
+            git push
+          )
