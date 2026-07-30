@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T13:25:51.630Z",
+  "generated_at": "2026-07-30T19:08:43.549Z",
   "profile": {
     "avatar": "https://avatars.githubusercontent.com/u/134364675?v=4",
     "public_repos": 5,
@@ -13,8 +13,8 @@
       "description": "AI-powered QA Agent for Playwright, Jira, GitHub, Jenkins and Slack using Python, Ollama and Cursor.",
       "url": "https://github.com/aagaathaa/qa-ai-agent",
       "featured": false,
-      "language": "Unknown",
-      "updated_at": "2026-07-27T10:46:21Z"
+      "language": "Python",
+      "updated_at": "2026-07-30T15:04:34Z"
     },
     {
       "name": "orangehrm-automation-framework",
@@ -46,6 +46,10 @@
   ],
   "events": [
     {
+      "type": "Activity",
+      "repo": "aagaathaa/qa-ai-agent"
+    },
+    {
       "type": "Push",
       "repo": "aagaathaa/orangehrm-automation-framework"
     },
@@ -64,10 +68,6 @@
     {
       "type": "Activity",
       "repo": "aagaathaa/saucedemo-playwright-tests"
-    },
-    {
-      "type": "Activity",
-      "repo": "aagaathaa/orangehrm-automation-framework"
     }
   ]
 }
