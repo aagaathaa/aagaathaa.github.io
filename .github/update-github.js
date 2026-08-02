@@ -24,6 +24,12 @@ if (process.env.GITHUB_TOKEN) {
   headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
 }
 
+console.log(
+  process.env.GITHUB_TOKEN
+    ? "✅ Using authenticated GitHub API"
+    : "⚠️ No GitHub token found. Using anonymous requests.",
+);
+
 async function getProfile() {
   const { data } = await axios.get(`https://api.github.com/users/${USERNAME}`, {
     headers,

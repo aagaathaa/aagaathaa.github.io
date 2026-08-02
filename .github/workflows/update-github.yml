@@ -22,7 +22,10 @@ jobs:
       - name: Install dependencies
         run: npm install axios
 
-      - run: node .github/update-github.js
+      - name: Update GitHub data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node .github/update-github.js
 
       - name: Commit changes
         run: |
