@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T18:23:04.883Z",
+  "generated_at": "2026-08-26T00:39:07.128Z",
   "profile": {
     "avatar": "https://avatars.githubusercontent.com/u/134364675?v=4",
     "public_repos": 5,
@@ -52,22 +52,6 @@
     {
       "type": "Activity",
       "repo": "aagaathaa/qa-ai-agent"
-    },
-    {
-      "type": "Push",
-      "repo": "aagaathaa/orangehrm-automation-framework"
-    },
-    {
-      "type": "Push",
-      "repo": "aagaathaa/orangehrm-automation-framework"
-    },
-    {
-      "type": "Push",
-      "repo": "aagaathaa/qa-automation-template"
-    },
-    {
-      "type": "Activity",
-      "repo": "aagaathaa/qa-automation-template"
     }
   ]
 }
